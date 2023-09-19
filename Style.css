@@ -1,0 +1,46 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+boby
+{
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu-bar
+{
+    background-color: #aa305c;
+    text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style-type: none;
+color:#fff;
+}
+.menu-bar ul li
+{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: #fff;
+}
+.active,.menu-bar ul li :hover
+{
+    background: #aa305c;
+    border-radius:3px;
+}
+.menu-bar .fa
+{
+    margin-right:8px;
+}
+
+.sub-menu-1
